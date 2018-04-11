@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toe"
+    android:orientation="vertical"
+    tools:context="com.example.android.tictactoe.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_single_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_heading"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="55dp"
+        android:background="#808000"
+        android:text="Single player"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_two_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_single_player"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:background="#808000"
+        android:text="Two player"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
